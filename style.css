@@ -1,0 +1,1849 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: beige;
+    position: relative;
+}
+.nav{
+    background-color: rgb(144, 46, 46);
+    display: flex;
+    width: 100vw;
+    z-index: 10;
+    position: fixed;
+
+    height: 20vh;
+}
+
+.nav-item{
+    width: 50vw;
+    width:14vw;
+    text-align: center;
+    height: 20vh;
+  
+    
+}
+.nav-link{
+    font-size: 3vw;
+    color: beige;
+
+}
+.nav-title{
+    width:16vw;
+    font-size: 3vw;
+    color: beige;
+    height: 20vh;
+}
+.box{
+    height: 20vh;
+}
+.nav-link{
+
+    color: beige;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    text-decoration: none;
+
+}
+.nav-link:hover{
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:850px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        height: 48vh;
+        width:100vw;
+        position: relative;
+    }
+    .box{
+        height: 0px;
+    }
+    .nav-item{
+        width:100vw;
+        color: beige;
+        height: 6vh;
+    }
+    .nav-title{
+        width:100vw;
+        text-align: center;
+        color: beige;
+        height: 6vh;
+        margin: 0px;
+    }
+    .nav-link{
+        height: 5vh;
+        
+    }
+
+    
+}
+
+
+.r1c1{
+   animation-name: row1_c1;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   grid-row: 2/3;
+    grid-column: 2/3;   
+    animation-direction: reverse;
+  
+    background-color: rgb(144, 46, 46);
+    
+}
+
+
+
+.bckg{
+    
+    position: relative;
+    display: grid;
+    height: 60vh;
+    width: 100vw;
+    grid-template-rows: 3fr repeat(5,1fr) 3fr ;
+    grid-template-columns: 4.5vw repeat(2,4vw) 5vw repeat(2,4vw) 5vw repeat(2,4vw) 5vw repeat(2,4vw) 5vw repeat(2,4vw) 5vw repeat(2,4vw) 5vw repeat(2,4vw) 5vw 4.5vw;
+}
+
+@keyframes row1_c1 {
+
+   25%{
+    transform: translateY(10vh);
+   }
+   75%{
+    transform: translateY(-10vh);
+   }
+}
+.r1c2{
+    animation-name: row1_c2;
+    animation-duration: 1s;
+    
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 3/4;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c2 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+       75%{
+        transform: translateY(-10vh);
+       }
+}
+.r1c3{
+    animation-name: row1_c3;
+    animation-duration: 1s;
+   margin-right: 1vw;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+    grid-column: 4/5;   
+    animation-direction: reverse;
+    background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c3 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r1c4{
+    animation-name: row1_c4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 5/6;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c4 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r1c5{
+    animation-name: row1_c5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+    grid-column: 6/7;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c5 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r1c6{
+    animation-name: row1_c6;
+    animation-duration: 1s;
+    margin-right: 1vw;
+
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 7/8;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c6 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r1c7{
+    animation-name: row1_c7;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 8/9;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c7 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r1c8{
+    animation-name: row1_c8;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 9/10;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c8 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c9{
+    animation-name: row1_c9;
+    animation-duration: 1s;
+    margin-right: 1vw;
+
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 10/11;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c9 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c10{
+    animation-name: row1_c10;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 11/12;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c10 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r1c12{
+    animation-name: row1_c12;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+    margin-right: 1vw;
+    background-color: rgb(144, 46, 46);
+
+     grid-column: 13/14;   
+     animation-direction: reverse;
+ }
+@keyframes row1_c12 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r1c13{
+    animation-name: row1_c13;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 14/15; 
+     background-color: rgb(144, 46, 46);
+
+  
+     animation-direction: reverse;
+ }
+@keyframes row1_c13 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c14{
+    animation-name: row1_c14;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 15/16;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c14 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c15{
+    
+    animation-name: row1_c15;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 16/17;  
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row1_c15 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c16{
+    animation-name: row1_c16;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 17/18;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c16 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r1c18{
+    
+    animation-name: row1_c18;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 19/20;   
+     animation-direction: reverse;
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+
+ }
+@keyframes row1_c18 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r1c19{
+    animation-name: row1_c19;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 20/21;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c19 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c20{
+    animation-name: row1_c20;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 21/22;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row1_c20 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r1c21{
+    animation-name: row1_c21;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 2/3;
+     grid-column: 22/23;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+     margin-right: 1vw;
+
+ }
+@keyframes row1_c21 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r2c1{
+    animation-name: row2_c1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 2/3;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c1 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r2c3{
+    animation-name: row2_c3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+    grid-column: 4/5;   
+    margin-right: 1vw;
+    background-color: rgb(144, 46, 46);
+
+    animation-direction: reverse;
+ }
+@keyframes row2_c3 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r2c5{
+    animation-name: row2_c5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+    grid-column: 6/7;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c5 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r2c6{
+    margin-right: 1vw;
+    grid-row: 3/4;
+    grid-column: 7/8;
+}
+.r2c7{
+    animation-name: row2_c7;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 8/9;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c7 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+
+.r2c10{
+    animation-name: row2_c10;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 11/12;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c10 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r2c12{
+    animation-name: row2_c12;
+    animation-duration: 1s;
+    margin-right: 1vw;
+
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 13/14;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c12 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+.r2c14{
+    animation-name: row2_c14;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 15/16;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c14 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+
+.r2c16{
+    animation-name: row2_c16;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 17/18;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c16 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r2c18{
+    animation-name: row2_c18;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 19/20;   
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row2_c18 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r2c19{
+    animation-name: row2_c19;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 20/21;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row2_c19 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+.r2c21{
+    animation-name: row2_c21;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 3/4;
+     grid-column: 22/23;   
+     background-color: rgb(144, 46, 46);
+     margin-right: 1vw;
+
+     animation-direction: reverse;
+ }
+@keyframes row2_c21 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r3c1{
+    animation-name: row3_c1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 2/3;   
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row3_c1 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r3c3{
+    animation-name: row3_c3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+    grid-column: 4/5;   
+    margin-right: 1vw;
+    background-color: rgb(144, 46, 46);
+
+    animation-direction: reverse;
+ }
+@keyframes row3_c3 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r3c5{
+    animation-name: row3_c5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+    grid-column: 6/7;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c5 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r3c7{
+    animation-name: row3_c7;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 8/9;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c7 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r3c8{
+    animation-name: row3_c8;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 9/10;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c8 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r3c9{
+    animation-name: row3_c9;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 10/11; 
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row3_c9 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r3c10{
+    animation-name: row3_c10;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 11/12;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c10 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r3c11{
+    animation-name: row3_c11;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 12/13;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c11 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r3c12{
+    animation-name: row3_c12;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 13/14; 
+     margin-right: 1vw;
+  
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c12 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r3c14{
+    animation-name: row3_c14;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 15/16;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+
+ }
+@keyframes row3_c14 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+
+.r3c16{
+    animation-name: row3_c16;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 17/18;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c16 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r3c17{
+    animation-name: row3_c17;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 18/19;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c17 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r3c19{
+    animation-name: row3_c19;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 20/21;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c19 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r3c20{
+    animation-name: row3_c20;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 21/22;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row3_c20 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r3c21{
+    animation-name: row3_c21;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 4/5;
+     grid-column: 22/23;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+     margin-right: 1vw;
+
+ }
+@keyframes row3_c21 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r4c1{
+    animation-name: row4_c1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 2/3;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c1 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r4c2{
+    animation-name: row4_c2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 3/4;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c2 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+.r4c5{
+    animation-name: row4_c5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+    grid-column: 6/7;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c5 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+
+.r4c9{
+    animation-name: row4_c9;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 10/11;   
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row4_c9 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r4c10{
+    animation-name: row4_c10;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 11/12;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c10 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r4c12{
+    animation-name: row4_c12;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 13/14;   
+     animation-direction: reverse;
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c12 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r4c14{
+    animation-name: row4_c14;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 15/16;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c14 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+
+.r4c16{
+    animation-name: row4_c16;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 17/18;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c16 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r4c18{
+    animation-name: row4_c18;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 19/20; 
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row4_c18 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r4c19{
+    animation-name: row4_c19;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 20/21;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row4_c19 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+
+.r4c21{
+    animation-name: row4_c21;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 5/6;
+     grid-column: 22/23;
+     background-color: rgb(144, 46, 46);
+     margin-right: 1vw;
+
+     animation-direction: reverse;
+ }
+@keyframes row4_c21 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r5c1{
+    animation-name: row5_c1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 2/3; 
+     background-color: rgb(144, 46, 46);
+  
+     animation-direction: reverse;
+ }
+@keyframes row5_c1 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r5c3{
+    animation-name: row5_c3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+    grid-column: 4/5; 
+    margin-right: 1vw;
+    background-color: rgb(144, 46, 46);
+
+    animation-direction: reverse;
+ }
+@keyframes row5_c3 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r5c4{
+    animation-name: row5_c4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 5/6;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c4 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r5c5{
+    animation-name: row5_c5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+    grid-column: 6/7;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c5 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r5c6{
+    animation-name: row5_c6;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 7/8; 
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+     animation-direction: reverse;
+ }
+@keyframes row5_c6 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+.r5c7{
+    animation-name: row5_c7;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 8/9;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c7 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+.r5c8{
+    animation-name: row5_c8;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 9/10;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c8 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r5c9{
+    animation-name: row5_c9;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 10/11;
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+  
+     animation-direction: reverse;
+ }
+@keyframes row5_c9 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r5c10{
+    animation-name: row5_c10;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 11/12;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c10 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+
+.r5c12{
+    animation-name: row5_c12;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 13/14;   
+     animation-direction: reverse;
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+
+ }
+@keyframes row5_c12 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r5c13{
+    animation-name: row5_c13;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 14/15;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c13 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r5c14{
+    animation-name: row5_c14;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 15/16;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c14 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r5c15{
+    animation-name: row5_c15;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 16/17;   
+     animation-direction: reverse;
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+
+ }
+@keyframes row5_c15 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+.r5c16{
+    animation-name: row5_c16;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 17/18;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c16 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+
+.r5c18{
+    animation-name: row5_c18;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 19/20;   
+     animation-direction: reverse;
+     margin-right: 1vw;
+     background-color: rgb(144, 46, 46);
+
+
+ }
+@keyframes row5_c18 {
+
+    25%{
+        transform: translateY(-10vh);
+       }
+    75%{
+        transform: translateY(10vh);
+    }
+}
+
+.r5c19{
+    animation-name: row5_c19;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 20/21;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+
+ }
+@keyframes row5_c19 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+
+
+.r5c21{
+    animation-name: row5_c21;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    grid-row: 6/7;
+     grid-column: 22/23;   
+     animation-direction: reverse;
+     background-color: rgb(144, 46, 46);
+     margin-right: 1vw;
+
+ }
+@keyframes row5_c21 {
+
+    25%{
+        transform: translateY(10vh);
+       }
+    75%{
+        transform: translateY(-10vh);
+    }
+}
+
+    
+
+.about{
+    color: red;
+    margin-left: 3vw;
+}
+.abt_2{
+    color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 40vh;
+    
+   
+}
+.p{
+    font-size: 3vw;
+}
+.abt_1{
+    width: 40vw;
+    height: 40vh;
+    flex-shrink: 0;
+    
+    position: relative;
+    top:0%;
+    
+}
+.abt{
+    position: relative;
+    
+    display: flex;
+    color: black;
+    width: 98vw;
+    height: fit-content;
+    margin-right: 1vw;
+    position: relative;
+    
+}
+#brain {
+    font-size: 30vw;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top:5vw;
+}
+#ball{
+    font-size: 5vw;
+    position: absolute;
+    bottom:38vh;
+    left:28vw;
+
+
+}
+
+.edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    width: 100vw;
+    height: fit-content;
+   
+}
+h1{
+    color: black;
+    font-size: 5vw;
+}
+
+.X , .XII , .coll{
+    margin: 2vw;
+    text-align: center;
+    background-color: rgb(144, 46, 46);
+    border-radius: 5%;
+    width:29vw;
+    text-wrap: wrap;
+    
+}
+
+ #circ{
+    margin: 2vw;
+    font-size: 2vw;
+    
+ } 
+
+.x{
+    color: beige;
+    font-size: 2vw;
+}
+span{
+    text-wrap: wrap;
+    
+    
+}
+
+    
+.skills{
+    display: grid;
+    height: fit-content;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+   position: relative;
+}
+
+.sk_a{
+    background-color: #798338ed;
+    width:29vw;
+    margin: 2vw;
+    
+}
+.sk{
+    background-color: rgb(144, 46, 46);
+    color: beige;
+    font-size:2vw ;
+    margin: 2vw;
+    text-align: center;
+    width:29vw;
+    border-radius: 5%;
+    text-wrap: wrap;
+    
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 96vw;
+    position: relative;
+    margin: 2vw;
+
+}
+.abs{
+    top:0px;
+    position: relative;
+    height: 80vh;
+    flex-grow: 1;
+    transition-duration: 3s;
+    transform-style:preserve-3d;
+    width:48vw;
+    
+}
+.abs:hover{
+    transform: rotateY(180deg);
+}
+.pro{
+    margin: 5vw;
+    width: 40vw;
+    top: 0px;
+    height:70vh;
+    color: black;
+    position: absolute;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 2.5vw;
+    
+}
+.link-pro{
+    font-size: 4vw;
+    text-decoration: none;
+    color: black;
+}
+
+.door{
+    height: 70vh;
+    width: 40vw;
+    background-color: rgb(144, 46, 46);
+    z-index: 10;
+    backface-visibility: hidden;
+    margin: 5vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+#cir{
+
+    font-size: 4vw;
+    
+}
+.knob{
+    padding-top: 40vh;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+#knob1{
+    
+    align-self: flex-end;
+}
+
+
+
+.me{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 3px;
+    background-color: rgb(144, 46, 46);
+    flex-grow: 1;
+}
+
+.con , .cont{
+    
+    color: beige;
+    margin: 3px;
+    border-radius: 10%;
+    font-size: fit-content;
+}
+
+.photo{
+    width:20vw;
+    border-radius: 50%;
+    grid-column: 2/3;
+   height: 20vh;
+    
+}
+.photocon{
+    width: 100vw;
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 80vw 20vw;
+    background-color: rgb(144, 46, 46);
+}
+
+
